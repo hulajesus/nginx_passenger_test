@@ -1,8 +1,8 @@
 # config valid only for current version of Capistrano
 lock '3.4.0'
 
-set :application, 'myapp'
-set :repo_url, 'jesushula@mac:/Users/jesushula/Projects/Rails/devise_demo'
+set :application, 'passenger_nginx_test'
+set :repo_url, 'https://github.com/hulajesus/nginx_passenger_test.git'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
